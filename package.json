@@ -1,0 +1,36 @@
+{
+  "name": "hapi-pharmacy-api",
+  "version": "1.0.0",
+  "description": "Hapi.js API with MySQL, JWT auth, and Sequelize",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "sequelize": "sequelize"
+  },
+  "keywords": [
+    "hapi",
+    "mysql",
+    "sequelize",
+    "jwt",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "@hapi/joi": "^17.1.1",
+    "@hapi/jwt": "^3.2.0",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.0",
+    "sequelize": "^6.37.3",
+    "underscore": "^1.13.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "sequelize-cli": "^6.6.2"
+  }
+}
